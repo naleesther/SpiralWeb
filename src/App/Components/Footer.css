@@ -1,0 +1,143 @@
+.footer-section{
+    background-color: #0095A8;
+    height: fit-content;
+}
+.phone-cardss{
+    display: flex;
+    padding:0 350px;
+    gap: 30px;
+    margin-top: -30px;
+    position: absolute;
+}
+.phone-card{
+    background-color: #fff;
+    width: 250px;
+    display: flex;
+    height: 30px;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative;
+   
+}
+.phone-phone{
+    background-color: #0095A8;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    /* margin-top: -10px; */
+
+}
+.phone-icon{
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+}
+.paragraph{
+    width: 250px;
+    margin-top: -31px;
+    margin-left: 38px;
+    color: #0095A8;
+}
+
+
+.phone-card2 {
+    background-color: #fff;
+    width: 250px;
+    display: flex;
+    height: 30px;
+    padding: 20px;
+    border-radius: 3px;
+    /* padding: 28px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.phone-phone2 {
+    background-color: #0095A8;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    /* margin-top: -10px; */
+
+}
+
+.phone-icon2 {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.paragraph2 {
+    width: 250px;
+    margin-top: -31px;
+    margin-left: 38px;
+    color: #0095A8;
+}
+
+.logoimage{
+    margin-top: 200px;
+    margin-left: 530px;
+}
+
+.logoimages{
+        margin-left: 480px;
+        color: #fff;
+        font-size: 16px;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 60px;
+}
+.icon-lines{
+    display: flex;
+    height: 10px;
+    gap: 16px;
+}
+.lines{
+    margin-top: -16px;
+}
+.footer-icons{
+    margin-top: -14px;
+
+}
+
+ .policy-terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+ }
+ .privacy-policy{
+    display: flex;
+    gap: 14px;
+ }
+ .policy-terms hr{
+    color: #0095A8;
+ }
+
+ .breakline{
+    width: 1150px;
+ }
+ .copyright{
+    display: flex;
+    gap: 12px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+ }
+ .copyright{
+
+    margin-top: 4px;
+    
+ }
+ /* .terms-of-use{
+    margin-top: -44.9px;
+    margin-left: 100px;
+ }
+ .terms-of-use hr{
+    color: red;
+ } */

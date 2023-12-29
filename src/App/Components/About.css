@@ -1,0 +1,68 @@
+.about-section{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.words-section{
+   width: 500px;
+   margin-left: 80px;
+   padding: 65px 0; 
+}
+.one-devotion{
+    color: #0095A8;
+}
+.get-access{
+    margin-top: 35px;
+}
+.store-image{
+    margin-left: 20px;
+}
+.hero-right{
+   padding:65px 0;
+   margin-left: 372.5px;
+    display: flex;
+    width: 400px;
+    height: 530px;
+    float: right;
+    position: relative;
+}
+.phone-mockup{
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 40px;
+
+}
+
+/* @media (max-width: 768px) {
+    .about-section{
+        justify-content: center;
+        align-items: center;
+
+    }
+    .words-section h1{
+        font-size: 24.5px;
+        padding: 12px;
+    }
+    .words-section p{
+        font-size: 14px;
+    }
+    
+    .phone-mockup{
+        width: 250px;
+        height: 330px;
+        margin-right: 200px;
+        margin-top: 230px;
+    }
+    .image-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .hero-right{
+       display: none;
+    }
+    
+} */

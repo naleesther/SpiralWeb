@@ -1,0 +1,105 @@
+body {
+    font-family: "Khand", sans-serif;
+}
+
+nav {
+    background-color: #e9f2f3;
+    color: #000;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: Dubai;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin-top: 12px;
+}
+
+.nav-element {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items {
+    cursor: pointer;
+    margin: 0 1rem;
+    font-weight: 400;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+
+.for-authors {
+    background-color: #0095A8;
+    color: #fff;
+    border-style: none;
+    border-radius: 3px;
+    width: 90px;
+    height: 26px;
+}
+
+/* @media (max-width: 768px) {
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .nav-element {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #EBF4F5;
+        color: #edede9;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+        text-decoration: none;
+    }
+
+    .nav-items {
+        margin: 1rem 0;
+    }
+
+    .navTop {
+        padding: 0 1rem;
+    }
+    .fabars{
+        margin-top: 18px;
+    }
+
+
+    .menu-icon {
+        display: block;
+        padding: 0 1rem;
+        font-size: 20px;
+    }
+
+    .nav-element.active {
+        opacity: 1;
+        visibility: visible;
+        top: 60px;
+    }
+} */
