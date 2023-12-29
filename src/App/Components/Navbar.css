@@ -58,7 +58,7 @@ a {
     height: 26px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     a {
         text-decoration: none;
         color: #000;
@@ -102,4 +102,4 @@ a {
         visibility: visible;
         top: 60px;
     }
-} */
+} 

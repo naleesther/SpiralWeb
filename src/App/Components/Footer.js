@@ -43,9 +43,7 @@ function Footer() {
         <div className="policy-terms">
           <div className="privacy-policy">
             <p>Privacy Policy</p>
-            {/* <hr/> */}
             <p>Terms of Use</p>
-            {/* <hr/> */}
           </div>
         </div>
         <hr className="breakline"/>

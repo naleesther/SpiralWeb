@@ -20,15 +20,15 @@ function About() {
             at your fingertips. Elevate your daily devotion with Spiral, the
             mobile app designed to enrich your spiritual journey.
           </p>
-          <h3 className="get-access">Download App Now</h3>
+          <h3 className="get-access">DOWNLOAD APP NOW</h3>
           <div>
             <img src={Google} />
             <img src={Store} className="store-image" />
           </div>
         </div>
         <div className="image-section">
-          <img src={Hero} className="hero-right"/>
-          <img src={Phones} className="phone-mockup"/>
+          <img src={Hero} className="hero-right" />
+          <img src={Phones} className="phone-mockup" />
         </div>
       </div>
     </div>

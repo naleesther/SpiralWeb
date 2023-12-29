@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feature.css";
-import SpiralImage from "../../img/Rectangle 14.png";
+// import SpiralImage from "../../img/Rectangle 14.png";
 import { FaCheckCircle } from "react-icons/fa";
 import Iphone from "../../img/iPhone 13 Pro.png";
 import Google from "../../img/logo_play-store.png";
@@ -10,13 +10,8 @@ import Cards from "./cards";
 
 function Feature() {
   return (
-    <div>
-      <div>
+    <div className="spiral-main-section">
         <div className="spiral">
-          <div className="spiralimage">
-            <img src={SpiralImage} className="spiral-image" />
-          </div>
-          <div>
             <div className="spiral-content">
               <h2>HOW WE DO IT</h2>
               <p>
@@ -86,9 +81,7 @@ function Feature() {
                 </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
       <div>
         <div className="download-app-section">
           <div className="download-app">
@@ -103,7 +96,7 @@ function Feature() {
               <img src={Store} className="store-image" />
             </div>
           </div>
-          <div>
+          <div className="person-prayers">
             <img src={Person} className="person" />
             <div className="prayers">
               <h3>Prayer</h3>

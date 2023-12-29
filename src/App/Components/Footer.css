@@ -4,10 +4,12 @@
 }
 .phone-cardss{
     display: flex;
-    padding:0 350px;
+    margin-left: 350px;
     gap: 30px;
     margin-top: -30px;
     position: absolute;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 .phone-card{
     background-color: #fff;
@@ -24,7 +26,6 @@
     width: 30px;
     height: 30px;
     border-radius: 20px;
-    /* margin-top: -10px; */
 
 }
 .phone-icon{
@@ -47,9 +48,7 @@
     height: 30px;
     padding: 20px;
     border-radius: 3px;
-    /* padding: 28px; */
-    /* align-items: center;
-    justify-content: center; */
+   
 }
 
 .phone-phone2 {
@@ -57,7 +56,6 @@
     width: 30px;
     height: 30px;
     border-radius: 20px;
-    /* margin-top: -10px; */
 
 }
 
@@ -134,10 +132,29 @@
     margin-top: 4px;
     
  }
- /* .terms-of-use{
-    margin-top: -44.9px;
-    margin-left: 100px;
- }
- .terms-of-use hr{
-    color: red;
- } */
+@media (max-width:768px) {
+    .footer-section{
+        margin-top: -230px;
+    }
+    .phone-cardss{
+        margin-left: 50px;
+        flex-direction: column;
+    }
+    .spiral-image-image{
+    
+        margin-left: -435px;
+        margin-top: 65px;
+        color:black;
+    }
+   
+    .logoimage{
+        width: 125px;
+    }
+    .logoimages{
+        font-size: 12px;
+    }
+    .breakline{
+        width: 348px;
+    }
+    
+}
