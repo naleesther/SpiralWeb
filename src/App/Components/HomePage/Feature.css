@@ -130,12 +130,10 @@
 .download-app {
   width: 430px;
   margin-top: 28px;
-  /* padding: 150px 100px; */
 }
 .person-prayers{
     margin-top: -98px;
-    /* padding-left: 155px; */
-    /* margin-left: 175px; */
+    
 }
 .download-app-section h1 {
   font-size: 25px;
@@ -181,7 +179,7 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 
 @media (max-width: 768px) {
   .spiral-main-section{
-    margin-top: -350px;
+    margin-top: -80px;
   }
   .spiral-content {
     margin-top: 340px;
