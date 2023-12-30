@@ -4,6 +4,7 @@ import Google from "../../../img/logo_play-store.png";
 import Store from "../../../img/logo_apple-app-store.2928664f.png";
 import Hero from "../../../img/Hero-right.png";
 import Phones from "../../../img/phone mockup 1.png";
+import { Link } from "react-router-dom";
 
 
 function About() {
@@ -23,7 +24,9 @@ function About() {
           <h3 className="get-access">DOWNLOAD APP NOW</h3>
           <div>
             <img src={Google} />
-            <img src={Store} className="store-image" />
+            <Link to={"/store"}>
+              <img src={Store} className="store-image" />
+            </Link>
           </div>
         </div>
         <div className="image-section">

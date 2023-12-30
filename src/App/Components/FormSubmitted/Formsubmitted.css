@@ -1,0 +1,33 @@
+.form-submit{
+    width: 350px;
+    height: 85px;
+    padding: 20px;
+    background-color:#FFFFFF;
+    border-radius: 9px;
+    margin-top: -480px;
+    margin-left: 480px;
+    position: absolute;
+   
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.delivered-checked{
+    color: #1BA97F;
+}
+.delivered h2{
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.delivered p{
+    font-size: 12px;
+}
+.close{
+    float: right;
+    background-color: #000;
+    color: #fff;
+    padding:8px 20px;
+    border-style: none;
+    border-radius: 5px;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Home from "./App/Components/HomePage";
 import StoreButton from "./App/Components/StorebuttonPage/StoreButton";
+import Formsubmitted from "./App/Components/FormSubmitted/Formsubmitted";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/store" element={<StoreButton/>}/>
+        <Route path="/form" element={<Formsubmitted/>}/>
         <Route />
         </Routes>
         </BrowserRouter>
