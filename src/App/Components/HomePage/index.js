@@ -5,19 +5,16 @@ import Feature from './Feature';
 import Footer from './Footer';
 
 
-function Index() {
+function Home() {
   return (
     <>
     <Navbar />
      <About />
      <Feature />
-     <Footer /> 
-     
-     
-     
+     <Footer />   
      </>
     
   )
 }
 
-export default Index;
+export default Home;

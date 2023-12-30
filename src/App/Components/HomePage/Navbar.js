@@ -1,9 +1,9 @@
 import React,{useState} from "react";
-import logo from "../../img/Asset 17@2x 1.png";
+import logo from "../../../img/Asset 17@2x 1.png";
 import "./Navbar.css";
 import { FaBars,FaTimes} from 'react-icons/fa';
 
-function App() {
+function Navbar() {
    const [open, setOpen] = useState(false);
    const openNav = () => {
      setOpen(!open);
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Navbar;

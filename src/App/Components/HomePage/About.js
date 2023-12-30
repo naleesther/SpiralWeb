@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import Google from "../../img/logo_play-store.png";
-import Store from "../../img/logo_apple-app-store.2928664f.png";
-import Hero from "../../img/Hero-right.png";
-import Phones from "../../img/phone mockup 1.png"
+import Google from "../../../img/logo_play-store.png";
+import Store from "../../../img/logo_apple-app-store.2928664f.png";
+import Hero from "../../../img/Hero-right.png";
+import Phones from "../../../img/phone mockup 1.png";
 
 
 function About() {

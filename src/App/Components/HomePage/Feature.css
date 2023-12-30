@@ -180,6 +180,9 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
+  .spiral-main-section{
+    margin-top: -350px;
+  }
   .spiral-content {
     margin-top: 340px;
     margin-left: 80px;

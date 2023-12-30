@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FaPhoneAlt,FaEnvelope   ,FaInstagram,FaFacebook,FaTwitter,FaYoutube,FaCopyright} from 'react-icons/fa';
-import LogoImage from "../../img/image 1.png";
+import LogoImage from "../../../img/image 1.png";
 
 
 function Footer() {

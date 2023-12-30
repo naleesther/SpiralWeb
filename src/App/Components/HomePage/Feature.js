@@ -2,10 +2,10 @@ import React from "react";
 import "./Feature.css";
 // import SpiralImage from "../../img/Rectangle 14.png";
 import { FaCheckCircle } from "react-icons/fa";
-import Iphone from "../../img/iPhone 13 Pro.png";
-import Google from "../../img/logo_play-store.png";
-import Store from "../../img/logo_apple-app-store.2928664f.png";
-import Person from "../../img/Rectangle 37.png";
+import Iphone from "../../../img/iPhone 13 Pro.png";
+import Google from "../../../img/logo_play-store.png";
+import Store from "../../../img/logo_apple-app-store.2928664f.png";
+import Person from "../../../img/Rectangle 37.png";
 import Cards from "./cards";
 
 function Feature() {
